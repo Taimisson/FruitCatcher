@@ -1,0 +1,43 @@
+# Ignorar a pasta de build e arquivos temporários do CMake
+/build/
+/cmake-build-debug/
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/cmake_install.cmake
+/src/FruitCatcher/docs
+
+# Ignorar arquivos de saída do compilador (objetos e executáveis)
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+
+# Ignorar dependências baixadas automaticamente pelo CMake 
+_build/
+_deps/
+glfw-src/
+glfw-build/
+external/
+
+# Ignorar configurações específicas do VSCode e IDEs
+.vscode/
+.idea/
+CMakeUserPresets.json
+
+# Ignorar logs e arquivos de sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignorar documentação interna (pasta docs)
+**/docs/
+docs/
+
+# Ignorar arquivos de configuração local
+config.txt
+**/config.txt
