@@ -1,0 +1,125 @@
+# ===================================================================
+# FRUIT CATCHER - ARQUIVO DE CONFIGURAÇÃO
+# Trabalho Grau A - Processamento Gráfico: Fundamentos
+# ===================================================================
+
+# === DIMENSÕES DA JANELA ===
+WINDOW_WIDTH=800
+WINDOW_HEIGHT=600
+WINDOW_TITLE=Fruit Catcher - Trabalho Grau A
+
+# === BACKGROUNDS (PARALLAX) ===
+BG_LAYER_1=../../kenney_background-elements-redux/Backgrounds/backgroundColorGrass.png
+CLOUD_1=../../kenney_background-elements-redux/PNG/Default/cloud1.png
+CLOUD_2=../../kenney_background-elements-redux/PNG/Default/cloud2.png
+CLOUD_3=../../kenney_background-elements-redux/PNG/Default/cloud3.png
+CLOUD_4=../../kenney_background-elements-redux/PNG/Default/cloud4.png
+BUSH_LEFT=../../kenney_background-elements-redux/PNG/Default/bushAlt2.png
+BUSH_MIDDLE=../../kenney_background-elements-redux/PNG/Default/bushAlt1.png
+BUSH_RIGHT=../../kenney_background-elements-redux/PNG/Default/bushAlt3.png
+
+# === SPRITES DO JOGADOR ===
+BASKET=../../assets/sprites/fruitcatcher/ui/basket.png
+
+# === FRUTAS ===
+APPLE=../../assets/sprites/fruitcatcher/fruits/apple.png
+BANANA=../../assets/sprites/fruitcatcher/fruits/banana.png
+ORANGE=../../assets/sprites/fruitcatcher/fruits/orange.png
+PINEAPPLE=../../assets/sprites/fruitcatcher/fruits/pineapple.png
+
+# === INSETOS (ESTÁTICOS) ===
+BEE=../../assets/sprites/fruitcatcher/insects/bee.png
+FLY=../../assets/sprites/fruitcatcher/insects/fly.png
+LADYBUG=../../assets/sprites/fruitcatcher/insects/ladybug.png
+
+# === SPRITESHEETS ANIMADOS ===
+BEE_FLY_SPR=../../assets/sprites/fruitcatcher/animated_sprites/bee_fly_spr.png|1|6
+BIRD_FLY_SPR=../../assets/sprites/fruitcatcher/animated_sprites/bird_fly_spr.png|1|6
+BIRD2_FLY_SPR=../../assets/sprites/fruitcatcher/animated_sprites/bird2_fly_spr.png|1|6
+RAT_WALK_SPR=../../assets/sprites/fruitcatcher/animated_sprites/rat_walk_spr.png|1|4
+RAT2_WALK_SPR=../../assets/sprites/fruitcatcher/animated_sprites/rat2_walk_spr.png|1|4
+
+# === HUD ===
+HEART_FULL=../../assets/sprites/fruitcatcher/ui/heart_full.png
+HEART_EMPTY=../../assets/sprites/fruitcatcher/ui/heart_empty.png
+
+# === TELAS DO JOGO ===
+MENU_TITLE=../../assets/sprites/fruitcatcher/ui/menu_title.png
+MENU_START=../../assets/sprites/fruitcatcher/ui/menu_start.png
+GAME_OVER=../../assets/sprites/fruitcatcher/ui/game_over.png
+
+# === NÚMEROS (0-9) ===
+NUMBER_0=../../assets/sprites/fruitcatcher/numbers/zero.png
+NUMBER_1=../../assets/sprites/fruitcatcher/numbers/one.png
+NUMBER_2=../../assets/sprites/fruitcatcher/numbers/two.png
+NUMBER_3=../../assets/sprites/fruitcatcher/numbers/three.png
+NUMBER_4=../../assets/sprites/fruitcatcher/numbers/four.png
+NUMBER_5=../../assets/sprites/fruitcatcher/numbers/five.png
+NUMBER_6=../../assets/sprites/fruitcatcher/numbers/six.png
+NUMBER_7=../../assets/sprites/fruitcatcher/numbers/seven.png
+NUMBER_8=../../assets/sprites/fruitcatcher/numbers/eight.png
+NUMBER_9=../../assets/sprites/fruitcatcher/numbers/nine.png
+
+# === ÁUDIO ===
+MUSIC_BACKGROUND=../../assets/audio/musica_fundo.mp3
+SOUND_FRUIT_COLLECT=../../assets/audio/fruit_collect.mp3
+SOUND_BUG_COLLECT=../../assets/audio/bug_collect.mp3
+
+# === CONFIGURAÇÕES DE GAMEPLAY ===
+# Vidas
+MAX_LIVES=5
+INITIAL_LIVES=4
+
+# Spawn de objetos
+BASE_SPAWN_INTERVAL=1.5
+MIN_SPAWN_INTERVAL=0.3
+FRUIT_SPAWN_CHANCE=70
+
+# Velocidades
+BASE_FALL_SPEED=100.0
+MAX_FALL_SPEED=1000.0
+BASKET_SPEED=300.0
+
+# Dificuldade
+DIFFICULTY_INCREASE_RATE=10.0
+
+# === SISTEMA DE PARALLAX ===
+# Velocidade base do parallax
+PARALLAX_SPEED=20.0
+
+# Taxas de scroll das camadas (0.0 = estático, 1.0 = velocidade completa)
+LAYER1_SCROLL_RATE=0.0
+LAYER2_SCROLL_RATE=0.5
+LAYER3_SCROLL_RATE=0.0
+
+# === ANIMAÇÕES DAS BUSHES ===
+# Bushes laterais (oscilação)
+BUSH_OSCILLATION_SPEED=1.5
+BUSH_OSCILLATION_AMOUNT=15.0
+
+# Bush central (tremor)
+BUSH_MIDDLE_SHAKE_SPEED=8.0
+BUSH_MIDDLE_SHAKE_AMOUNT=3.0
+
+# === SISTEMA DE BOUNCE DAS NUVENS ===
+# Posições iniciais X
+CLOUD_POS_0=0.0
+CLOUD_POS_1=-100.0
+CLOUD_POS_2=200.0
+CLOUD_POS_3=100.0
+
+# Velocidades (pixels por segundo)
+CLOUD_SPEED_0=30.0
+CLOUD_SPEED_1=40.0
+CLOUD_SPEED_2=25.0
+CLOUD_SPEED_3=35.0
+
+# Direções iniciais (1.0 = direita, -1.0 = esquerda)
+CLOUD_DIR_0=1.0
+CLOUD_DIR_1=1.0
+CLOUD_DIR_2=-1.0
+CLOUD_DIR_3=1.0
+
+# === ÁUDIO ===
+MUSIC_VOLUME=0.5
+

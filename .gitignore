@@ -38,6 +38,3 @@ Thumbs.db
 **/docs/
 docs/
 
-# Ignorar arquivos de configuração local
-config.txt
-**/config.txt
